@@ -1,0 +1,862 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>BadgeView</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            Android-Vast-Extension
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":libraries:VastTools:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="VastTools::com.ave.vastgui.tools.view.badgeview/BadgeView///PointingToDeclaration//1125336823">
+  <div class="breadcrumbs"><a href="../../index.html">VastTools</a><span class="delimiter">/</span><a href="../index.html">com.ave.vastgui.tools.view.badgeview</a><span class="delimiter">/</span><span class="current">BadgeView</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Badge</span><wbr><span><span>View</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">BadgeView</a>&nbsp;<span><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a>&nbsp;</span><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">attrs<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/util/AttributeSet.html">AttributeSet</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">defStyleAttr<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.attr.Default_BadgeView_Style<span class="token punctuation">, </span></span><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StyleRes.html"><span class="token annotation builtin">StyleRes</span></a>&nbsp;</span>defStyleRes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.style.BaseBadgeView</span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a></div><p class="paragraph">Badge View.</p><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">0.5.3</p></span></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1136418395%2FConstructors%2F1125336823" anchor-label="BadgeView" id="1136418395%2FConstructors%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-badge-view.html"><span>Badge</span><wbr><span><span>View</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1136418395%2FConstructors%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">attrs<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/util/AttributeSet.html">AttributeSet</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">defStyleAttr<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.attr.Default_BadgeView_Style<span class="token punctuation">, </span></span><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/StyleRes.html"><span class="token annotation builtin">StyleRes</span></a>&nbsp;</span>defStyleRes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.style.BaseBadgeView</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-277722274%2FClasslikes%2F1125336823" anchor-label="Companion" id="-277722274%2FClasslikes%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-277722274%2FClasslikes%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1378259562%2FProperties%2F1125336823" anchor-label="mBadgeColor" id="1378259562%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-badge-color.html"><span>m</span><wbr><span>Badge</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1378259562%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="m-badge-color.html">mBadgeColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="308316362%2FProperties%2F1125336823" anchor-label="mBadgeMode" id="308316362%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-badge-mode.html"><span>m</span><wbr><span>Badge</span><wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="308316362%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="m-badge-mode.html">mBadgeMode</a><span class="token operator">: </span><a href="../-badge-mode/index.html">BadgeMode</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="276515279%2FProperties%2F1125336823" anchor-label="mBadgePaint" id="276515279%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-badge-paint.html"><span>m</span><wbr><span>Badge</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="276515279%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-badge-paint.html">mBadgePaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-653161220%2FProperties%2F1125336823" anchor-label="mBadgeState" id="-653161220%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-badge-state.html"><span>m</span><wbr><span>Badge</span><wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-653161220%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="m-badge-state.html">mBadgeState</a><span class="token operator">: </span><a href="../-badge-state/index.html">BadgeState</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1696054959%2FProperties%2F1125336823" anchor-label="mBezierPaint" id="-1696054959%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-bezier-paint.html"><span>m</span><wbr><span>Bezier</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1696054959%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-bezier-paint.html">mBezierPaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-105651002%2FProperties%2F1125336823" anchor-label="mBezierPath" id="-105651002%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-bezier-path.html"><span>m</span><wbr><span>Bezier</span><wbr><span><span>Path</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-105651002%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-bezier-path.html">mBezierPath</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Path.html">Path</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2140132733%2FProperties%2F1125336823" anchor-label="mBmpIndex" id="2140132733%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-bmp-index.html"><span>m</span><wbr><span>Bmp</span><wbr><span><span>Index</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2140132733%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">var </span><a href="m-bmp-index.html">mBmpIndex</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2098267689%2FProperties%2F1125336823" anchor-label="mControlPoint" id="-2098267689%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-control-point.html"><span>m</span><wbr><span>Control</span><wbr><span><span>Point</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2098267689%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-control-point.html">mControlPoint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PointF.html">PointF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="825310997%2FProperties%2F1125336823" anchor-label="mDotRadius" id="825310997%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-dot-radius.html"><span>m</span><wbr><span>Dot</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="825310997%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="m-dot-radius.html">mDotRadius</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="146068602%2FProperties%2F1125336823" anchor-label="mExplosionBmp" id="146068602%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-explosion-bmp.html"><span>m</span><wbr><span>Explosion</span><wbr><span><span>Bmp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="146068602%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">var </span><a href="m-explosion-bmp.html">mExplosionBmp</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1837996041%2FProperties%2F1125336823" anchor-label="mExplosionRect" id="-1837996041%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-explosion-rect.html"><span>m</span><wbr><span>Explosion</span><wbr><span><span>Rect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1837996041%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-explosion-rect.html">mExplosionRect</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Rect.html">Rect</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2033430290%2FProperties%2F1125336823" anchor-label="mFixedPoint" id="-2033430290%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-fixed-point.html"><span>m</span><wbr><span>Fixed</span><wbr><span><span>Point</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2033430290%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-fixed-point.html">mFixedPoint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PointF.html">PointF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2027579702%2FProperties%2F1125336823" anchor-label="mFixedRadius" id="-2027579702%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-fixed-radius.html"><span>m</span><wbr><span>Fixed</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2027579702%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">var </span><a href="m-fixed-radius.html">mFixedRadius</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1156762160%2FProperties%2F1125336823" anchor-label="mMinimumRadius" id="1156762160%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-minimum-radius.html"><span>m</span><wbr><span>Minimum</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1156762160%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-minimum-radius.html">mMinimumRadius</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="705842070%2FProperties%2F1125336823" anchor-label="mMinOffsetDistance" id="705842070%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-min-offset-distance.html"><span>m</span><wbr><span>Min</span><wbr><span>Offset</span><wbr><span><span>Distance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="705842070%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-min-offset-distance.html">mMinOffsetDistance</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">When the coordinate of first touch is     smaller than mMoveRadius + MIN_OFFSET_DISTANCE, it means you touched     the starting red dot.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="546294417%2FProperties%2F1125336823" anchor-label="mMovePoint" id="546294417%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-move-point.html"><span>m</span><wbr><span>Move</span><wbr><span><span>Point</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="546294417%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">var </span><a href="m-move-point.html">mMovePoint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PointF.html">PointF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="634474887%2FProperties%2F1125336823" anchor-label="mMoveRadius" id="634474887%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-move-radius.html"><span>m</span><wbr><span>Move</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="634474887%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="m-move-radius.html">mMoveRadius</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="569577177%2FProperties%2F1125336823" anchor-label="mPointA" id="569577177%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-point-a.html"><span>m</span><wbr><span>Point</span><wbr><span><span>A</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="569577177%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-point-a.html">mPointA</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PointF.html">PointF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="600596984%2FProperties%2F1125336823" anchor-label="mPointB" id="600596984%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-point-b.html"><span>m</span><wbr><span>Point</span><wbr><span><span>B</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="600596984%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-point-b.html">mPointB</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PointF.html">PointF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="631616791%2FProperties%2F1125336823" anchor-label="mPointC" id="631616791%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-point-c.html"><span>m</span><wbr><span>Point</span><wbr><span><span>C</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="631616791%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-point-c.html">mPointC</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PointF.html">PointF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="662636598%2FProperties%2F1125336823" anchor-label="mPointD" id="662636598%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-point-d.html"><span>m</span><wbr><span>Point</span><wbr><span><span>D</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="662636598%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-point-d.html">mPointD</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PointF.html">PointF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-764399331%2FProperties%2F1125336823" anchor-label="mText" id="-764399331%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text.html"><span>m</span><wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-764399331%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="m-text.html">mText</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="726783098%2FProperties%2F1125336823" anchor-label="mTextColor" id="726783098%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-color.html"><span>m</span><wbr><span>Text</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="726783098%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="m-text-color.html">mTextColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-140149424%2FProperties%2F1125336823" anchor-label="mTextMaxNumber" id="-140149424%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-max-number.html"><span>m</span><wbr><span>Text</span><wbr><span>Max</span><wbr><span><span>Number</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-140149424%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="m-text-max-number.html">mTextMaxNumber</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1978934828%2FProperties%2F1125336823" anchor-label="mTextNumber" id="-1978934828%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-number.html"><span>m</span><wbr><span>Text</span><wbr><span><span>Number</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1978934828%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="m-text-number.html">mTextNumber</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-374961185%2FProperties%2F1125336823" anchor-label="mTextPaint" id="-374961185%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-paint.html"><span>m</span><wbr><span>Text</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-374961185%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">val </span><a href="m-text-paint.html">mTextPaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-995269604%2FProperties%2F1125336823" anchor-label="mTextSize" id="-995269604%2FProperties%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-size.html"><span>m</span><wbr><span>Text</span><wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-995269604%2FProperties%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="m-text-size.html">mTextSize</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="509747416%2FFunctions%2F1125336823" anchor-label="drawBezier" id="509747416%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="draw-bezier.html"><span>draw</span><wbr><span><span>Bezier</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="509747416%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Canvas.html">Canvas</a><span class="token punctuation">.</span><a href="draw-bezier.html"><span class="token function">drawBezier</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Draw a Bezier curve connecting circles centered at <a href="m-move-point.html">mMovePoint</a> and <a href="m-fixed-point.html">mFixedPoint</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="139643039%2FFunctions%2F1125336823" anchor-label="getBubbleTextNumber" id="139643039%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-bubble-text-number.html"><span>get</span><wbr><span>Bubble</span><wbr><span>Text</span><wbr><span><span>Number</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="139643039%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-bubble-text-number.html"><span class="token function">getBubbleTextNumber</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Get number string of <a href="m-text-number.html">mTextNumber</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1253302815%2FFunctions%2F1125336823" anchor-label="getMinimumRadius" id="-1253302815%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-minimum-radius.html"><span>get</span><wbr><span>Minimum</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1253302815%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">.</span><a href="get-minimum-radius.html"><span class="token function">getMinimumRadius</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">Get minimum radius of the bubble.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1529307791%2FFunctions%2F1125336823" anchor-label="getTextBaseline" id="1529307791%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-text-baseline.html"><span>get</span><wbr><span>Text</span><wbr><span><span>Baseline</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1529307791%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-text-baseline.html"><span class="token function">getTextBaseline</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">Get text baseline.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1803718192%2FFunctions%2F1125336823" anchor-label="hideDot" id="-1803718192%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="hide-dot.html"><span>hide</span><wbr><span><span>Dot</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1803718192%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="hide-dot.html"><span class="token function">hideDot</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Hide dot. The setting will only take effect when the mode is <a href="../-badge-mode/-d-o-t/index.html">BadgeMode.DOT</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-168156730%2FFunctions%2F1125336823" anchor-label="onDraw" id="-168156730%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-draw.html"><span>on</span><wbr><span><span>Draw</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-168156730%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-draw.html"><span class="token function">onDraw</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">canvas<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Canvas.html">Canvas</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="892190599%2FFunctions%2F1125336823" anchor-label="onMeasure" id="892190599%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-measure.html"><span>on</span><wbr><span><span>Measure</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="892190599%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-measure.html"><span class="token function">onMeasure</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widthMeasureSpec<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">heightMeasureSpec<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1555119375%2FFunctions%2F1125336823" anchor-label="onTouchEvent" id="1555119375%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-touch-event.html"><span>on</span><wbr><span>Touch</span><wbr><span><span>Event</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1555119375%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-touch-event.html"><span class="token function">onTouchEvent</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">event<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/MotionEvent.html">MotionEvent</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-661975460%2FFunctions%2F1125336823" anchor-label="performClick" id="-661975460%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="perform-click.html"><span>perform</span><wbr><span><span>Click</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-661975460%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="perform-click.html"><span class="token function">performClick</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1062904754%2FFunctions%2F1125336823" anchor-label="resetAnimation" id="-1062904754%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="reset-animation.html"><span>reset</span><wbr><span><span>Animation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1062904754%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="reset-animation.html"><span class="token function">resetAnimation</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="60054082%2FFunctions%2F1125336823" anchor-label="resetPoint" id="60054082%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="reset-point.html"><span>reset</span><wbr><span><span>Point</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="60054082%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="reset-point.html"><span class="token function">resetPoint</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Reset <a href="m-move-point.html">mMovePoint</a> and <a href="m-fixed-point.html">mFixedPoint</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1153198104%2FFunctions%2F1125336823" anchor-label="setBubbleRadius" id="-1153198104%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-bubble-radius.html"><span>set</span><wbr><span>Bubble</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1153198104%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-bubble-radius.html"><span class="token function">setBubbleRadius</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/FloatRange.html"><span class="token annotation builtin">FloatRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">0.0</span></span></span><wbr><span class="token punctuation">)</span>&nbsp;</span>bubbleRadius<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">The setting will only take effect when the mode is <a href="../-badge-mode/-b-u-b-b-l-e/-n-u-m-b-e-r/index.html">BadgeMode.BUBBLE.NUMBER</a> or <a href="../-badge-mode/-b-u-b-b-l-e/-t-e-x-t/index.html">BadgeMode.BUBBLE.TEXT</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="757637864%2FFunctions%2F1125336823" anchor-label="setBubbleText" id="757637864%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-bubble-text.html"><span>set</span><wbr><span>Bubble</span><wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="757637864%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-bubble-text.html"><span class="token function">setBubbleText</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">text<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the text to be displayed in bubble.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-555887303%2FFunctions%2F1125336823" anchor-label="setBubbleTextColor" id="-555887303%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-bubble-text-color.html"><span>set</span><wbr><span>Bubble</span><wbr><span>Text</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-555887303%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-bubble-text-color.html"><span class="token function">setBubbleTextColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">colorInt<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the color-int of text.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="181681176%2FFunctions%2F1125336823" anchor-label="setBubbleTextMaxNum" id="181681176%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-bubble-text-max-num.html"><span>set</span><wbr><span>Bubble</span><wbr><span>Text</span><wbr><span>Max</span><wbr><span><span>Num</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="181681176%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-bubble-text-max-num.html"><span class="token function">setBubbleTextMaxNum</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/IntRange.html"><span class="token annotation builtin">IntRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">0</span></span></span><wbr><span class="token punctuation">)</span>&nbsp;</span>maxNumber<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the max number to be displayed in bubble.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1223314826%2FFunctions%2F1125336823" anchor-label="setBubbleTextNum" id="-1223314826%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-bubble-text-num.html"><span>set</span><wbr><span>Bubble</span><wbr><span>Text</span><wbr><span><span>Num</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1223314826%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-bubble-text-num.html"><span class="token function">setBubbleTextNum</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/IntRange.html"><span class="token annotation builtin">IntRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">0</span></span></span><wbr><span class="token punctuation">)</span>&nbsp;</span>number<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the number to be displayed in bubble.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-524348372%2FFunctions%2F1125336823" anchor-label="setBubbleTextSize" id="-524348372%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-bubble-text-size.html"><span>set</span><wbr><span>Bubble</span><wbr><span>Text</span><wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-524348372%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-bubble-text-size.html"><span class="token function">setBubbleTextSize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">size<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the text size of bubble in pixels.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="699914304%2FFunctions%2F1125336823" anchor-label="setColor" id="699914304%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-color.html"><span>set</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="699914304%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-color.html"><span class="token function">setColor</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/ColorInt.html"><span class="token annotation builtin">ColorInt</span></a>&nbsp;</span>colorInt<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the color-int of the badge by <a href="set-color.html">colorInt</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="834263771%2FFunctions%2F1125336823" anchor-label="setDotRadius" id="834263771%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-dot-radius.html"><span>set</span><wbr><span>Dot</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="834263771%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-dot-radius.html"><span class="token function">setDotRadius</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">dotRadius<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">The setting will only take effect when the mode is <a href="../-badge-mode/-d-o-t/index.html">BadgeMode.DOT</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1517689598%2FFunctions%2F1125336823" anchor-label="setMode" id="1517689598%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-mode.html"><span>set</span><wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1517689598%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-mode.html"><span class="token function">setMode</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mode<span class="token operator">: </span><a href="../-badge-mode/index.html">BadgeMode</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set badge mode. Only useful when the current value of <a href="m-badge-mode.html">mBadgeMode</a> is <a href="../-badge-mode/-u-n-s-p-e-c-i-f-i-e-d/index.html">BadgeMode.UNSPECIFIED</a></p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1219549451%2FFunctions%2F1125336823" anchor-label="showDot" id="1219549451%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="show-dot.html"><span>show</span><wbr><span><span>Dot</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1219549451%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="show-dot.html"><span class="token function">showDot</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Show dot. The setting will only take effect when the mode is <a href="../-badge-mode/-d-o-t/index.html">BadgeMode.DOT</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-973578849%2FFunctions%2F1125336823" anchor-label="startExplosionAnim" id="-973578849%2FFunctions%2F1125336823" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:VastTools:dokkaHtmlPartial/release" data-filterable-set=":libraries:VastTools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="start-explosion-anim.html"><span>start</span><wbr><span>Explosion</span><wbr><span><span>Anim</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-973578849%2FFunctions%2F1125336823"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:VastTools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="start-explosion-anim.html"><span class="token function">startExplosionAnim</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
