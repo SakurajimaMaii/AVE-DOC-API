@@ -1,13 +1,18 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 
+module:VastAdapter
+com.ave.vastgui.adapter
+com.ave.vastgui.adapter.base
+com.ave.vastgui.adapter.listener
 module:VastCore
+com.ave.vastgui.core
 com.ave.vastgui.core.collections
 com.ave.vastgui.core.extension
 com.ave.vastgui.core.utils
 module:VastNetStateLayout
-com.ave.vastgui.netstatelayout.interfaces
-com.ave.vastgui.netstatelayout.view
+com.ave.vastgui.netstatelayout
+com.ave.vastgui.netstatelayout.listener
 module:VastTools
 com.ave.vastgui.tools.activity
 com.ave.vastgui.tools.activity.app
@@ -15,6 +20,7 @@ com.ave.vastgui.tools.activity.result.contract
 com.ave.vastgui.tools.activity.widget
 com.ave.vastgui.tools.adapter
 com.ave.vastgui.tools.anim
+com.ave.vastgui.tools.annotation
 com.ave.vastgui.tools.bean
 com.ave.vastgui.tools.config
 com.ave.vastgui.tools.content
@@ -47,6 +53,7 @@ com.ave.vastgui.tools.view.badgeview
 com.ave.vastgui.tools.view.cropview
 com.ave.vastgui.tools.view.dialog
 com.ave.vastgui.tools.view.extension
+com.ave.vastgui.tools.view.masklayout
 com.ave.vastgui.tools.view.progress
 com.ave.vastgui.tools.view.ratingview
 com.ave.vastgui.tools.view.textview
