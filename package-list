@@ -39,6 +39,7 @@ com.ave.vastgui.tools.network.handle
 com.ave.vastgui.tools.network.request
 com.ave.vastgui.tools.network.response
 com.ave.vastgui.tools.os
+com.ave.vastgui.tools.os.extension
 com.ave.vastgui.tools.sharedpreferences
 com.ave.vastgui.tools.text
 com.ave.vastgui.tools.text.appendablestylestring
