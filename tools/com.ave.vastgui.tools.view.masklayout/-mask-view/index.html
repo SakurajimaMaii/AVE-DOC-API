@@ -1,0 +1,303 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>MaskView</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            Android-Vast-Extension
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":libraries:tools:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="tools::com.ave.vastgui.tools.view.masklayout/MaskView///PointingToDeclaration//-1723929237">
+  <div class="breadcrumbs"><a href="../../index.html">tools</a><span class="delimiter">/</span><a href="../index.html">com.ave.vastgui.tools.view.masklayout</a><span class="delimiter">/</span><span class="current">MaskView</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Mask</span><wbr><span><span>View</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">MaskView</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a></div><p class="paragraph">Mask View.</p><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">0.5.6</p></span></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="697833804%2FConstructors%2F-1723929237" anchor-label="MaskView" id="697833804%2FConstructors%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-mask-view.html"><span>Mask</span><wbr><span><span>View</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="697833804%2FConstructors%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="29135058%2FProperties%2F-1723929237" anchor-label="mBitmap" id="29135058%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-bitmap.html"><span>m</span><wbr><span><span>Bitmap</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="29135058%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">lateinit </span><span class="token keyword">var </span><a href="m-bitmap.html">mBitmap</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1926482884%2FProperties%2F-1723929237" anchor-label="mCollapsedXfermode" id="1926482884%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-collapsed-xfermode.html"><span>m</span><wbr><span>Collapsed</span><wbr><span><span>Xfermode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1926482884%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-collapsed-xfermode.html">mCollapsedXfermode</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PorterDuffXfermode.html">PorterDuffXfermode</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1537141270%2FProperties%2F-1723929237" anchor-label="mExpandedXfermode" id="-1537141270%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-expanded-xfermode.html"><span>m</span><wbr><span>Expanded</span><wbr><span><span>Xfermode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1537141270%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-expanded-xfermode.html">mExpandedXfermode</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PorterDuffXfermode.html">PorterDuffXfermode</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1393018655%2FProperties%2F-1723929237" anchor-label="mMaskAnimation" id="-1393018655%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-mask-animation.html"><span>m</span><wbr><span>Mask</span><wbr><span><span>Animation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1393018655%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">var </span><a href="m-mask-animation.html">mMaskAnimation</a><span class="token operator">: </span><a href="../-mask-animation/index.html">MaskAnimation</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2114326366%2FProperties%2F-1723929237" anchor-label="mMaskCenterX" id="-2114326366%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-mask-center-x.html"><span>m</span><wbr><span>Mask</span><wbr><span>Center</span><wbr><span><span>X</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2114326366%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">var </span><a href="m-mask-center-x.html">mMaskCenterX</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2083306559%2FProperties%2F-1723929237" anchor-label="mMaskCenterY" id="-2083306559%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-mask-center-y.html"><span>m</span><wbr><span>Mask</span><wbr><span>Center</span><wbr><span><span>Y</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2083306559%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">var </span><a href="m-mask-center-y.html">mMaskCenterY</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1940679553%2FProperties%2F-1723929237" anchor-label="mMaskDuration" id="1940679553%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-mask-duration.html"><span>m</span><wbr><span>Mask</span><wbr><span><span>Duration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1940679553%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">var </span><a href="m-mask-duration.html">mMaskDuration</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="480009283%2FProperties%2F-1723929237" anchor-label="mMaskRadius" id="480009283%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-mask-radius.html"><span>m</span><wbr><span>Mask</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="480009283%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-mask-radius.html">mMaskRadius</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1555828511%2FProperties%2F-1723929237" anchor-label="mMaskTimeInterpolator" id="-1555828511%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-mask-time-interpolator.html"><span>m</span><wbr><span>Mask</span><wbr><span>Time</span><wbr><span><span>Interpolator</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1555828511%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">var </span><a href="m-mask-time-interpolator.html">mMaskTimeInterpolator</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/animation/TimeInterpolator.html">TimeInterpolator</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1829615931%2FProperties%2F-1723929237" anchor-label="mPaint" id="1829615931%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-paint.html"><span>m</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1829615931%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-paint.html">mPaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1155769842%2FProperties%2F-1723929237" anchor-label="mTargetMaskRadius" id="1155769842%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-target-mask-radius.html"><span>m</span><wbr><span>Target</span><wbr><span>Mask</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1155769842%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">var </span><a href="m-target-mask-radius.html">mTargetMaskRadius</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1355166429%2FFunctions%2F-1723929237" anchor-label="activeMask" id="-1355166429%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="active-mask.html"><span>active</span><wbr><span><span>Mask</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1355166429%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="active-mask.html"><span class="token function">activeMask</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">animation<span class="token operator">: </span><a href="../-mask-animation/index.html">MaskAnimation</a><span class="token punctuation">, </span></span><span class="parameter ">animFinish<span class="token operator">: </span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Active Mask.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1131830077%2FFunctions%2F-1723929237" anchor-label="onDraw" id="1131830077%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-draw.html"><span>on</span><wbr><span><span>Draw</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1131830077%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-draw.html"><span class="token function">onDraw</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">canvas<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Canvas.html">Canvas</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

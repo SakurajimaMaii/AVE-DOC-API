@@ -1,0 +1,678 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>WaveProgressView</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            Android-Vast-Extension
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":libraries:tools:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="tools::com.ave.vastgui.tools.view.progress/WaveProgressView///PointingToDeclaration//-1723929237">
+  <div class="breadcrumbs"><a href="../../index.html">tools</a><span class="delimiter">/</span><a href="../index.html">com.ave.vastgui.tools.view.progress</a><span class="delimiter">/</span><span class="current">WaveProgressView</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Wave</span><wbr><span>Progress</span><wbr><span><span>View</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">WaveProgressView</a>&nbsp;<span><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a>&nbsp;</span><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">attrs<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/util/AttributeSet.html">AttributeSet</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">defStyleAttr<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.attr.Default_WaveProgressView_Style<span class="token punctuation">, </span></span><span class="parameter ">defStyleRes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.style.BaseWaveProgressView</span></span><span class="token punctuation">)</span> : <a href="../-progress-view/index.html">ProgressView</a></div><p class="paragraph">WaveProgressView</p><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">0.2.0</p></span></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="1876030192%2FConstructors%2F-1723929237" anchor-label="WaveProgressView" id="1876030192%2FConstructors%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-wave-progress-view.html"><span>Wave</span><wbr><span>Progress</span><wbr><span><span>View</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1876030192%2FConstructors%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-overloads/index.html"><span class="token annotation builtin">JvmOverloads</span></a></div></div><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">attrs<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/util/AttributeSet.html">AttributeSet</a><span class="token operator">?</span><span class="token operator"> = </span>null<span class="token punctuation">, </span></span><span class="parameter ">defStyleAttr<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.attr.Default_WaveProgressView_Style<span class="token punctuation">, </span></span><span class="parameter ">defStyleRes<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span>R.style.BaseWaveProgressView</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="297784688%2FProperties%2F-1723929237" anchor-label="mBackground" id="297784688%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-background.html"><span>m</span><wbr><span><span>Background</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="297784688%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-background.html">mBackground</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a></div><div class="brief "><p class="paragraph">Background for saving graph calculations with     waves.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1277141868%2FProperties%2F-1723929237" anchor-label="mBackgroundPaint" id="1277141868%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-background-paint.html"><span>m</span><wbr><span>Background</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1277141868%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-background-paint.html">mBackgroundPaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="44162786%2FProperties%2F-1723929237" anchor-label="mHalfWaveWidth" id="44162786%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-half-wave-width.html"><span>m</span><wbr><span>Half</span><wbr><span>Wave</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="44162786%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-half-wave-width.html">mHalfWaveWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">A quarter of the <a href="m-wave-width.html">mWaveWidth</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1287425047%2FProperties%2F-1723929237" anchor-label="mHeight" id="1287425047%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-height.html"><span>m</span><wbr><span><span>Height</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1287425047%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-height.html">mHeight</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="840695553%2FProperties%2F-1723929237" anchor-label="mImage" id="840695553%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-image.html"><span>m</span><wbr><span><span>Image</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="840695553%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="m-image.html">mImage</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/drawable/Drawable.html">Drawable</a><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1510366302%2FProperties%2F-1723929237" anchor-label="mIsAutoBack" id="1510366302%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-is-auto-back.html"><span>m</span><wbr><span>Is</span><wbr><span>Auto</span><wbr><span><span>Back</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1510366302%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-is-auto-back.html">mIsAutoBack</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Used to determine whether a default background is     required (the default is a circular background).</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1374499412%2FProperties%2F-1723929237" anchor-label="mProgressBackgroundColor" id="1374499412%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-progress-background-color.html"><span>m</span><wbr><span>Progress</span><wbr><span>Background</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1374499412%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">var </span><a href="m-progress-background-color.html">mProgressBackgroundColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">The wave background color.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2040996998%2FProperties%2F-1723929237" anchor-label="mProgressColor" id="2040996998%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-progress-color.html"><span>m</span><wbr><span>Progress</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2040996998%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">var </span><a href="m-progress-color.html">mProgressColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">The wave color.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="360238860%2FProperties%2F-1723929237" anchor-label="mRadius" id="360238860%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-radius.html"><span>m</span><wbr><span><span>Radius</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="360238860%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="m-radius.html">mRadius</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="238377108%2FProperties%2F-1723929237" anchor-label="mShowText" id="238377108%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-show-text.html"><span>m</span><wbr><span>Show</span><wbr><span><span>Text</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="238377108%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="m-show-text.html">mShowText</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1800586878%2FProperties%2F-1723929237" anchor-label="mSpaceWidth" id="1800586878%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-space-width.html"><span>m</span><wbr><span>Space</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1800586878%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="m-space-width.html">mSpaceWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">The space width.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-126044399%2FProperties%2F-1723929237" anchor-label="mStrokeColor" id="-126044399%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-stroke-color.html"><span>m</span><wbr><span>Stroke</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-126044399%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="m-stroke-color.html">mStrokeColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">The stroke color.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1227788682%2FProperties%2F-1723929237" anchor-label="mStrokePaint" id="-1227788682%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-stroke-paint.html"><span>m</span><wbr><span>Stroke</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1227788682%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-stroke-paint.html">mStrokePaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1817534962%2FProperties%2F-1723929237" anchor-label="mStrokeWidth" id="-1817534962%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-stroke-width.html"><span>m</span><wbr><span>Stroke</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1817534962%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="m-stroke-width.html">mStrokeWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">The stroke width.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1949442298%2FProperties%2F-1723929237" anchor-label="mTextColor" id="-1949442298%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-color.html"><span>m</span><wbr><span>Text</span><wbr><span><span>Color</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1949442298%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">var </span><a href="m-text-color.html">mTextColor</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">The color of the text.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1243780715%2FProperties%2F-1723929237" anchor-label="mTextPaint" id="1243780715%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-paint.html"><span>m</span><wbr><span>Text</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1243780715%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-text-paint.html">mTextPaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1635788784%2FProperties%2F-1723929237" anchor-label="mTextSize" id="-1635788784%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-text-size.html"><span>m</span><wbr><span>Text</span><wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1635788784%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">var </span><a href="m-text-size.html">mTextSize</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">Ths size of the <a href="../../../tools/com.ave.vastgui.tools.view.progress/-wave-progress-view/m-text.html">mText</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-592119440%2FProperties%2F-1723929237" anchor-label="mUpdateInterval" id="-592119440%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-update-interval.html"><span>m</span><wbr><span>Update</span><wbr><span><span>Interval</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-592119440%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-update-interval.html">mUpdateInterval</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><p class="paragraph">Interval time between every frame in     milliseconds.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="492586566%2FProperties%2F-1723929237" anchor-label="mWaveBitmapPaint" id="492586566%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-bitmap-paint.html"><span>m</span><wbr><span>Wave</span><wbr><span>Bitmap</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="492586566%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-wave-bitmap-paint.html">mWaveBitmapPaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1132779430%2FProperties%2F-1723929237" anchor-label="mWaveCount" id="1132779430%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-count.html"><span>m</span><wbr><span>Wave</span><wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1132779430%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-wave-count.html">mWaveCount</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">The count number of waves.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1193993890%2FProperties%2F-1723929237" anchor-label="mWaveHeight" id="-1193993890%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-height.html"><span>m</span><wbr><span>Wave</span><wbr><span><span>Height</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1193993890%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-wave-height.html">mWaveHeight</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">The height of each wave.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-679603203%2FProperties%2F-1723929237" anchor-label="mWaveOffsetDistance" id="-679603203%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-offset-distance.html"><span>m</span><wbr><span>Wave</span><wbr><span>Offset</span><wbr><span><span>Distance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-679603203%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-wave-offset-distance.html">mWaveOffsetDistance</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">The wave offset distance.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1071728841%2FProperties%2F-1723929237" anchor-label="mWavePaint" id="-1071728841%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-paint.html"><span>m</span><wbr><span>Wave</span><wbr><span><span>Paint</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1071728841%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-wave-paint.html">mWavePaint</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Paint.html">Paint</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1854151200%2FProperties%2F-1723929237" anchor-label="mWavePath" id="1854151200%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-path.html"><span>m</span><wbr><span>Wave</span><wbr><span><span>Path</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1854151200%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-wave-path.html">mWavePath</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Path.html">Path</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-995432141%2FProperties%2F-1723929237" anchor-label="mWaveRectF" id="-995432141%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-rect-f.html"><span>m</span><wbr><span>Wave</span><wbr><span>Rect</span><wbr><span><span>F</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-995432141%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-wave-rect-f.html">mWaveRectF</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/RectF.html">RectF</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1226848110%2FProperties%2F-1723929237" anchor-label="mWaveSpeed" id="1226848110%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-speed.html"><span>m</span><wbr><span>Wave</span><wbr><span><span>Speed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1226848110%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-wave-speed.html">mWaveSpeed</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">Offset per frame. By default, the value is     mWaveWidth / 70.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1661475121%2FProperties%2F-1723929237" anchor-label="mWaveWidth" id="-1661475121%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-wave-width.html"><span>m</span><wbr><span>Wave</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1661475121%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-wave-width.html">mWaveWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">The width of the each wave.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1466611958%2FProperties%2F-1723929237" anchor-label="mWidth" id="1466611958%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-width.html"><span>m</span><wbr><span><span>Width</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1466611958%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">var </span><a href="m-width.html">mWidth</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2038088864%2FProperties%2F-1723929237" anchor-label="mXfermode" id="2038088864%2FProperties%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="m-xfermode.html"><span>m</span><wbr><span><span>Xfermode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2038088864%2FProperties%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-xfermode.html">mXfermode</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/PorterDuffXfermode.html">PorterDuffXfermode</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="745809331%2FFunctions%2F-1723929237" anchor-label="autoCreateBitmap" id="745809331%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="auto-create-bitmap.html"><span>auto</span><wbr><span>Create</span><wbr><span><span>Bitmap</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="745809331%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="auto-create-bitmap.html"><span class="token function">autoCreateBitmap</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">radius<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a></div><div class="brief "><p class="paragraph">Create a circular Bimap with radius <a href="auto-create-bitmap.html">radius</a> and color <a href="m-progress-background-color.html">mProgressBackgroundColor</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1508498059%2FFunctions%2F-1723929237" anchor-label="calWaveCount" id="1508498059%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="cal-wave-count.html"><span>cal</span><wbr><span>Wave</span><wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1508498059%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="cal-wave-count.html"><span class="token function">calWaveCount</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">width<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">waveWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">Calculate the number of waves.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1638709420%2FFunctions%2F-1723929237" anchor-label="createWaveBitmap" id="-1638709420%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="create-wave-bitmap.html"><span>create</span><wbr><span>Wave</span><wbr><span><span>Bitmap</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1638709420%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="create-wave-bitmap.html"><span class="token function">createWaveBitmap</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">width<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">height<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Bitmap.html">Bitmap</a></div><div class="brief "><p class="paragraph">Draw a wave bitmap.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1793004474%2FFunctions%2F-1723929237" anchor-label="onDraw" id="1793004474%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-draw.html"><span>on</span><wbr><span><span>Draw</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1793004474%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-draw.html"><span class="token function">onDraw</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">canvas<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/Canvas.html">Canvas</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1558645779%2FFunctions%2F-1723929237" anchor-label="onMeasure" id="1558645779%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-measure.html"><span>on</span><wbr><span><span>Measure</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1558645779%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-measure.html"><span class="token function">onMeasure</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">widthMeasureSpec<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">heightMeasureSpec<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1385309439%2FFunctions%2F-1723929237" anchor-label="setImage" id="1385309439%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-image.html"><span>set</span><wbr><span><span>Image</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1385309439%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-image.html"><span class="token function">setImage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">image<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/graphics/drawable/Drawable.html">Drawable</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set <a href="m-image.html">mImage</a>. Click <a href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/wave-progress-view/#_2">link</a> to see the example.</p></div><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-image.html"><span class="token function">setImage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/DrawableRes.html"><span class="token annotation builtin">DrawableRes</span></a>&nbsp;</span>resid<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set <a href="m-image.html">mImage</a>. Click <a href="https://ave.entropy2020.cn/documents/VastTools/core-topics/ui/progress/wave-progress-view/#_2">link</a> to see the example. If the resource is not exists, the <a href="m-image.html">mImage</a> will be set to null.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2127271131%2FFunctions%2F-1723929237" anchor-label="setSpeed" id="2127271131%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-speed.html"><span>set</span><wbr><span><span>Speed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2127271131%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-speed.html"><span class="token function">setSpeed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/FloatRange.html"><span class="token annotation builtin">FloatRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">0.0</span></span></span><wbr><span class="token punctuation">)</span>&nbsp;</span>speed<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the <a href="m-wave-speed.html">mWaveSpeed</a> of the wave.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1837073410%2FFunctions%2F-1723929237" anchor-label="setUpdateInterval" id="-1837073410%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-update-interval.html"><span>set</span><wbr><span>Update</span><wbr><span><span>Interval</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1837073410%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-update-interval.html"><span class="token function">setUpdateInterval</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/IntRange.html"><span class="token annotation builtin">IntRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">-1</span></span></span><wbr><span class="token punctuation">)</span>&nbsp;</span>interval<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set update interval time between every frame in milliseconds.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1390258735%2FFunctions%2F-1723929237" anchor-label="setWave" id="1390258735%2FFunctions%2F-1723929237" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:tools:dokkaHtmlPartial/release" data-filterable-set=":libraries:tools:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-wave.html"><span>set</span><wbr><span><span>Wave</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1390258735%2FFunctions%2F-1723929237"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:tools:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="set-wave.html"><span class="token function">setWave</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/FloatRange.html"><span class="token annotation builtin">FloatRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">0.0</span></span></span><wbr><span class="token punctuation">)</span>&nbsp;</span>waveWidth<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/FloatRange.html"><span class="token annotation builtin">FloatRange</span></a><span class="token punctuation">(</span><span>from<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">0.0</span></span></span><wbr><span class="token punctuation">)</span>&nbsp;</span>waveHeight<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Set the width and height of the wave.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
