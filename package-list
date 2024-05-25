@@ -28,6 +28,7 @@ com.ave.vastgui.tools.constant
 com.ave.vastgui.tools.content
 com.ave.vastgui.tools.coroutines
 com.ave.vastgui.tools.datastore
+com.ave.vastgui.tools.exception
 com.ave.vastgui.tools.fragment
 com.ave.vastgui.tools.graphics
 com.ave.vastgui.tools.lifecycle
@@ -71,3 +72,6 @@ com.log.vastgui.core.plugin
 module:log-desktop
 com.log.vastgui.desktop
 com.log.vastgui.desktop.base
+module:log-okhttp
+com.log.vastgui.okhttp
+com.log.vastgui.okhttp.base
