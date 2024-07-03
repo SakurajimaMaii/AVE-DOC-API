@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>MarsConfig</title>
+<link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../../index.html">
+                            Android-Vast-Extension
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":libraries:log:mars:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="log-mars::com.log.vastgui.mars.base/MarsConfig///PointingToDeclaration//387751559">
+  <div class="breadcrumbs"><a href="../../index.html">log-mars</a><span class="delimiter">/</span><a href="../index.html">com.log.vastgui.mars.base</a><span class="delimiter">/</span><span class="current">MarsConfig</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Mars</span><wbr><span><span>Config</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">internal </span><span class="token keyword">object </span><a href="index.html">MarsConfig</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-2082978334%2FProperties%2F387751559" anchor-label="logCache" id="-2082978334%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="log-cache.html"><span>log</span><wbr><span><span>Cache</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2082978334%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">lateinit </span><span class="token keyword">var </span><a href="log-cache.html">logCache</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/io/File.html">File</a></div><div class="brief "><p class="paragraph">Cache directory. When <a href="log-dir.html">logDir</a> is not writable, it will be written to this directory. It is optional. If not selected, please provide "". If you want to provide it, it is recommended to provide the /data/data/packname/files/log directory of the application.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="776818935%2FProperties%2F387751559" anchor-label="logDir" id="776818935%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="log-dir.html"><span>log</span><wbr><span><span>Dir</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="776818935%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">lateinit </span><span class="token keyword">var </span><a href="log-dir.html">logDir</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/io/File.html">File</a></div><div class="brief "><p class="paragraph">Log directory. Please provide a separate directory for writing logs. Do not put other files except log files into this directory, otherwise they may be cleaned up by the automatic log cleaning function.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-833975299%2FProperties%2F387751559" anchor-label="mode" id="-833975299%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="mode.html"><span><span>mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-833975299%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="mode.html">mode</a><span class="token operator">: </span><a href="../-mars-write-mode/index.html">MarsWriteMode</a></div><div class="brief "><p class="paragraph">File writing modes are divided into asynchronous and synchronous. The Release version must use <a href="../-mars-write-mode/-async/index.html">MarsWriteMode.Async</a>. The Debug version can be both, but there may be lags when using <a href="../-mars-write-mode/-sync/index.html">MarsWriteMode.Sync</a>.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="21818275%2FProperties%2F387751559" anchor-label="namePrefix" id="21818275%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="name-prefix.html"><span>name</span><wbr><span><span>Prefix</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="21818275%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="name-prefix.html">namePrefix</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">File name prefix. For example, if the value is log, the generated file name is: log_20170102.xlog.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1959868318%2FProperties%2F387751559" anchor-label="pubKey" id="1959868318%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="pub-key.html"><span>pub</span><wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1959868318%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="pub-key.html">pubKey</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">The pub_key used for encryption, please refer to the Xlog encryption guide for details.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1291882433%2FProperties%2F387751559" anchor-label="singleLogFileCacheDays" id="-1291882433%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="single-log-file-cache-days.html"><span>single</span><wbr><span>Log</span><wbr><span>File</span><wbr><span>Cache</span><wbr><span><span>Days</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1291882433%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="single-log-file-cache-days.html">singleLogFileCacheDays</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">The number of days to cache. Under normal circumstances, just fill in 0. Non-0 means that the log file will be stored in the <a href="log-cache.html">logCache</a> directory first, and the log will be moved from <a href="log-cache.html">logCache</a> to <a href="log-dir.html">logDir</a> after <a href="single-log-file-cache-days.html">singleLogFileCacheDays</a> days.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1694787457%2FProperties%2F387751559" anchor-label="singleLogFileEveryday" id="1694787457%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="single-log-file-everyday.html"><span>single</span><wbr><span>Log</span><wbr><span>File</span><wbr><span><span>Everyday</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1694787457%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="single-log-file-everyday.html">singleLogFileEveryday</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Whether to save log in one file every day.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="585554931%2FProperties%2F387751559" anchor-label="singleLogFileMaxSize" id="585554931%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="single-log-file-max-size.html"><span>single</span><wbr><span>Log</span><wbr><span>File</span><wbr><span>Max</span><wbr><span><span>Size</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="585554931%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="single-log-file-max-size.html">singleLogFileMaxSize</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><p class="paragraph">The maximum size of a single log file. By default, the current day's logs are written to a file. By changing <a href="single-log-file-max-size.html">singleLogFileMaxSize</a> you can Split the day's log into multiple files, each file size is <a href="single-log-file-max-size.html">singleLogFileMaxSize</a>, <a href="single-log-file-max-size.html">singleLogFileMaxSize</a> defaults to 1MB , means not to split the log into multiple files. It is recommended that each file should not exceed 10M.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1630578058%2FProperties%2F387751559" anchor-label="singleLogFileStoreTime" id="1630578058%2FProperties%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="single-log-file-store-time.html"><span>single</span><wbr><span>Log</span><wbr><span>File</span><wbr><span>Store</span><wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1630578058%2FProperties%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">var </span><a href="single-log-file-store-time.html">singleLogFileStoreTime</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><p class="paragraph">The maximum storage time of a single log file. Minimum 1 day, default time 10 days.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="926640290%2FFunctions%2F387751559" anchor-label="close" id="926640290%2FFunctions%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="close.html"><span><span>close</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="926640290%2FFunctions%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="close.html"><span class="token function">close</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1921721648%2FFunctions%2F387751559" anchor-label="init" id="1921721648%2FFunctions%2F387751559" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:mars:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:mars:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="init.html"><span><span>init</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1921721648%2FFunctions%2F387751559"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:mars:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="init.html"><span class="token function">init</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Complete configuration.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

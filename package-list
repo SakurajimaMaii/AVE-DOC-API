@@ -31,6 +31,7 @@ com.ave.vastgui.tools.datastore
 com.ave.vastgui.tools.exception
 com.ave.vastgui.tools.fragment
 com.ave.vastgui.tools.graphics
+com.ave.vastgui.tools.hardware
 com.ave.vastgui.tools.lifecycle
 com.ave.vastgui.tools.log
 com.ave.vastgui.tools.log.base
@@ -67,11 +68,19 @@ module:log-core
 com.log.vastgui.core
 com.log.vastgui.core.annotation
 com.log.vastgui.core.base
+com.log.vastgui.core.format
+com.log.vastgui.core.internel
 com.log.vastgui.core.json
+com.log.vastgui.core.pipeline
 com.log.vastgui.core.plugin
 module:log-desktop
 com.log.vastgui.desktop
 com.log.vastgui.desktop.base
+com.log.vastgui.desktop.format
+module:log-mars
+com.log.vastgui.mars
+com.log.vastgui.mars.base
+com.tencent.mars.xlog
 module:log-okhttp
 com.log.vastgui.okhttp
 com.log.vastgui.okhttp.base
