@@ -37,7 +37,6 @@ com.ave.vastgui.tools.log
 com.ave.vastgui.tools.log.base
 com.ave.vastgui.tools.manager.filemgr
 com.ave.vastgui.tools.manager.mediafilemgr
-com.ave.vastgui.tools.network.handle
 com.ave.vastgui.tools.network.request
 com.ave.vastgui.tools.network.response
 com.ave.vastgui.tools.os
