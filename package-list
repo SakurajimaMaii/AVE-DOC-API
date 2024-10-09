@@ -83,3 +83,5 @@ com.tencent.mars.xlog
 module:log-okhttp
 com.log.vastgui.okhttp
 com.log.vastgui.okhttp.base
+module:log-slf4j
+com.log.vastgui.slf4j
