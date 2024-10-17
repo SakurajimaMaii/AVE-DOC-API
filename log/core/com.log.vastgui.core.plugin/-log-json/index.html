@@ -62,7 +62,7 @@
   <div class="breadcrumbs"><a href="../../index.html">log-core</a><span class="delimiter">/</span><a href="../index.html">com.log.vastgui.core.plugin</a><span class="delimiter">/</span><span class="current">LogJson</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Log</span><wbr><span><span>Json</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">LogJson</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>mConfiguration<span class="token operator">: </span><a href="-configuration/index.html">LogJson.Configuration</a></span></span><span class="token punctuation">)</span><span class="clearfix"><span class="floating-right">(<a href="https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/log/core/src/main/kotlin/com/log/vastgui/core/plugin/LogJson.kt#L46">source</a>)</span></span></div><p class="paragraph">The <a href="index.html">LogJson</a> plugin allows you to convert objects to json.</p><div class="sample-container"><pre><code class="block lang-json" theme="idea">private val gsonConverter = GsonConverter.getInstance(true)<br><br>val logFactory: LogFactory = getLogFactory {<br>    ...<br>    install(LogJson) {<br>        converter = gsonConverter<br>    }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">0.5.3</p></span></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">LogJson</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mConfiguration<span class="token operator">: </span><a href="-configuration/index.html">LogJson.Configuration</a></span></span><span class="token punctuation">)</span><span class="clearfix"><span class="floating-right">(<a href="https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/log/core/src/main/kotlin/com/log/vastgui/core/plugin/LogJson.kt#L46">source</a>)</span></span></div><p class="paragraph">The <a href="index.html">LogJson</a> plugin allows you to convert objects to json.</p><div class="sample-container"><pre><code class="block lang-json" theme="idea">private val gsonConverter = GsonConverter.getInstance(true)<br><br>val logFactory: LogFactory = getLogFactory {<br>    ...<br>    install(LogJson) {<br>        converter = gsonConverter<br>    }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">0.5.3</p></span></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
@@ -122,17 +122,36 @@
       </div>
       <div data-togglable="PROPERTY">
         <h2 class="">Properties</h2>
-        <div class="table"><a data-name="890908334%2FProperties%2F-604408910" anchor-label="mConfiguration" id="890908334%2FProperties%2F-604408910" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main"></a>
+        <div class="table"><a data-name="620329156%2FProperties%2F-604408910" anchor-label="mConverter" id="620329156%2FProperties%2F-604408910" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main"></a>
           <div class="table-row" data-filterable-current=":libraries:log:core:dokkaHtmlPartial/main" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
-                  <div><a href="m-configuration.html"><span>m</span><wbr><span><span>Configuration</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="890908334%2FProperties%2F-604408910"></span>
+                  <div><a href="m-converter.html"><span>m</span><wbr><span><span>Converter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="620329156%2FProperties%2F-604408910"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-configuration.html">mConfiguration</a><span class="token operator">: </span><a href="-configuration/index.html">LogJson.Configuration</a></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-converter.html">mConverter</a><span class="token operator">: </span><a href="../../com.log.vastgui.core.json/-converter/index.html">Converter</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-46468235%2FFunctions%2F-604408910" anchor-label="toJson" id="-46468235%2FFunctions%2F-604408910" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:core:dokkaHtmlPartial/main" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="to-json.html"><span>to</span><wbr><span><span>Json</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-46468235%2FFunctions%2F-604408910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="to-json.html"><span class="token function">toJson</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
                 </div>
               </div>
             </div>
