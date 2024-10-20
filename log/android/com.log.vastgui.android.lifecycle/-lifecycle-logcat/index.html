@@ -1,0 +1,547 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>LifecycleLogcat</title>
+<link href="../../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../../index.html">
+                            Android-Vast-Extension
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":libraries:log:android:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="log-android::com.log.vastgui.android.lifecycle/LifecycleLogcat///PointingToDeclaration//1068042445">
+  <div class="breadcrumbs"><a href="../../index.html">log-android</a><span class="delimiter">/</span><a href="../index.html">com.log.vastgui.android.lifecycle</a><span class="delimiter">/</span><span class="current">LifecycleLogcat</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Lifecycle</span><wbr><span><span>Logcat</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">LifecycleLogcat</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>observer<span class="token operator">: </span><a href="-lifecycle-callback/index.html">LifecycleLogcat.LifecycleCallback</a></span></span><span class="token punctuation">)</span> : <a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.FragmentLifecycleCallbacks.html">FragmentManager.FragmentLifecycleCallbacks</a>, <a href="https://developer.android.com/reference/kotlin/android/app/Application.ActivityLifecycleCallbacks.html">Application.ActivityLifecycleCallbacks</a></div><p class="paragraph">Handles callbacks for all of the <a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a> lifecycle events. When <a href="on-activity-created.html">onActivityCreated</a> is called, it will register for the <a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a> lifecycle events.</p><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">1.3.10</p></span></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="-80277712%2FConstructors%2F1068042445" anchor-label="LifecycleLogcat" id="-80277712%2FConstructors%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-lifecycle-logcat.html"><span>Lifecycle</span><wbr><span><span>Logcat</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-80277712%2FConstructors%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">observer<span class="token operator">: </span><a href="-lifecycle-callback/index.html">LifecycleLogcat.LifecycleCallback</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-756501967%2FClasslikes%2F1068042445" anchor-label="Companion" id="-756501967%2FClasslikes%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-companion/index.html"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-756501967%2FClasslikes%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-companion/index.html">Companion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1439041330%2FClasslikes%2F1068042445" anchor-label="LifecycleCallback" id="-1439041330%2FClasslikes%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-lifecycle-callback/index.html"><span>Lifecycle</span><wbr><span><span>Callback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1439041330%2FClasslikes%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/java/lang/FunctionalInterface.html"><span class="token annotation builtin">FunctionalInterface</span></a></div></div><span class="token keyword">fun </span><span class="token keyword">interface </span><a href="-lifecycle-callback/index.html">LifecycleCallback</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="860909927%2FProperties%2F1068042445" anchor-label="eventOwnerMap" id="860909927%2FProperties%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="event-owner-map.html"><span>event</span><wbr><span>Owner</span><wbr><span><span>Map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="860909927%2FProperties%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="event-owner-map.html">eventOwnerMap</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/concurrent/ConcurrentMap.html">ConcurrentMap</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/Class.html">Class</a><span class="token operator">&lt;</span><span class="token operator">*</span><span class="token operator">&gt;</span><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="../-log-lifecycle-event/index.html">LogLifecycleEvent</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1144719654%2FProperties%2F1068042445" anchor-label="observer" id="-1144719654%2FProperties%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="observer.html"><span><span>observer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1144719654%2FProperties%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="observer.html">observer</a><span class="token operator">: </span><a href="-lifecycle-callback/index.html">LifecycleLogcat.LifecycleCallback</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="310337790%2FFunctions%2F1068042445" anchor-label="getKey" id="310337790%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-key.html"><span>get</span><wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="310337790%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">.</span><a href="get-key.html"><span class="token function">getKey</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">default<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator"> = </span><span class="token string">""</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1362528024%2FFunctions%2F1068042445" anchor-label="onActivityCreated" id="1362528024%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-activity-created.html"><span>on</span><wbr><span>Activity</span><wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1362528024%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-activity-created.html"><span class="token function">onActivityCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="129921156%2FFunctions%2F1068042445" anchor-label="onActivityDestroyed" id="129921156%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-activity-destroyed.html"><span>on</span><wbr><span>Activity</span><wbr><span><span>Destroyed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="129921156%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-activity-destroyed.html"><span class="token function">onActivityDestroyed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1844879673%2FFunctions%2F1068042445" anchor-label="onActivityPaused" id="1844879673%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-activity-paused.html"><span>on</span><wbr><span>Activity</span><wbr><span><span>Paused</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1844879673%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-activity-paused.html"><span class="token function">onActivityPaused</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1132752826%2FFunctions%2F1068042445" anchor-label="onActivityResumed" id="-1132752826%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-activity-resumed.html"><span>on</span><wbr><span>Activity</span><wbr><span><span>Resumed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1132752826%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-activity-resumed.html"><span class="token function">onActivityResumed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1703616756%2FFunctions%2F1068042445" anchor-label="onActivitySaveInstanceState" id="1703616756%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-activity-save-instance-state.html"><span>on</span><wbr><span>Activity</span><wbr><span>Save</span><wbr><span>Instance</span><wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1703616756%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-activity-save-instance-state.html"><span class="token function">onActivitySaveInstanceState</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a><span class="token punctuation">, </span></span><span class="parameter ">outState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2004539868%2FFunctions%2F1068042445" anchor-label="onActivityStarted" id="2004539868%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-activity-started.html"><span>on</span><wbr><span>Activity</span><wbr><span><span>Started</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2004539868%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-activity-started.html"><span class="token function">onActivityStarted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-930860016%2FFunctions%2F1068042445" anchor-label="onActivityStopped" id="-930860016%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-activity-stopped.html"><span>on</span><wbr><span>Activity</span><wbr><span><span>Stopped</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-930860016%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-activity-stopped.html"><span class="token function">onActivityStopped</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">activity<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/app/Activity.html">Activity</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1739183631%2FFunctions%2F1068042445" anchor-label="onFragmentActivityCreated" id="1739183631%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-activity-created.html"><span>on</span><wbr><span>Fragment</span><wbr><span>Activity</span><wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1739183631%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-activity-created.html"><span class="token function"><strike>onFragmentActivityCreated</strike></span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1110203267%2FFunctions%2F1068042445" anchor-label="onFragmentAttached" id="1110203267%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-attached.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Attached</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1110203267%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-attached.html"><span class="token function">onFragmentAttached</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a><span class="token punctuation">, </span></span><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1125244386%2FFunctions%2F1068042445" anchor-label="onFragmentCreated" id="-1125244386%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-created.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1125244386%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-created.html"><span class="token function">onFragmentCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1730507006%2FFunctions%2F1068042445" anchor-label="onFragmentDestroyed" id="1730507006%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-destroyed.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Destroyed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1730507006%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-destroyed.html"><span class="token function">onFragmentDestroyed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2047706739%2FFunctions%2F1068042445" anchor-label="onFragmentDetached" id="-2047706739%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-detached.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Detached</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2047706739%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-detached.html"><span class="token function">onFragmentDetached</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1156506031%2FFunctions%2F1068042445" anchor-label="onFragmentPaused" id="-1156506031%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-paused.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Paused</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1156506031%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-paused.html"><span class="token function">onFragmentPaused</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-918800040%2FFunctions%2F1068042445" anchor-label="onFragmentPreAttached" id="-918800040%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-pre-attached.html"><span>on</span><wbr><span>Fragment</span><wbr><span>Pre</span><wbr><span><span>Attached</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-918800040%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-pre-attached.html"><span class="token function">onFragmentPreAttached</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a><span class="token punctuation">, </span></span><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-849722445%2FFunctions%2F1068042445" anchor-label="onFragmentPreCreated" id="-849722445%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-pre-created.html"><span>on</span><wbr><span>Fragment</span><wbr><span>Pre</span><wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-849722445%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-pre-created.html"><span class="token function">onFragmentPreCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2083852032%2FFunctions%2F1068042445" anchor-label="onFragmentResumed" id="-2083852032%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-resumed.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Resumed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2083852032%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-resumed.html"><span class="token function">onFragmentResumed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-685241874%2FFunctions%2F1068042445" anchor-label="onFragmentSaveInstanceState" id="-685241874%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-save-instance-state.html"><span>on</span><wbr><span>Fragment</span><wbr><span>Save</span><wbr><span>Instance</span><wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-685241874%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-save-instance-state.html"><span class="token function">onFragmentSaveInstanceState</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a><span class="token punctuation">, </span></span><span class="parameter ">outState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1672186218%2FFunctions%2F1068042445" anchor-label="onFragmentStarted" id="-1672186218%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-started.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Started</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1672186218%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-started.html"><span class="token function">onFragmentStarted</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1619715894%2FFunctions%2F1068042445" anchor-label="onFragmentStopped" id="-1619715894%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-stopped.html"><span>on</span><wbr><span>Fragment</span><wbr><span><span>Stopped</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1619715894%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-stopped.html"><span class="token function">onFragmentStopped</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-179462811%2FFunctions%2F1068042445" anchor-label="onFragmentViewCreated" id="-179462811%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-view-created.html"><span>on</span><wbr><span>Fragment</span><wbr><span>View</span><wbr><span><span>Created</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-179462811%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-view-created.html"><span class="token function">onFragmentViewCreated</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a><span class="token punctuation">, </span></span><span class="parameter ">v<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/view/View.html">View</a><span class="token punctuation">, </span></span><span class="parameter ">savedInstanceState<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/os/Bundle.html">Bundle</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1623498243%2FFunctions%2F1068042445" anchor-label="onFragmentViewDestroyed" id="1623498243%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-fragment-view-destroyed.html"><span>on</span><wbr><span>Fragment</span><wbr><span>View</span><wbr><span><span>Destroyed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1623498243%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="on-fragment-view-destroyed.html"><span class="token function">onFragmentViewDestroyed</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">fm<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/FragmentManager.html">FragmentManager</a><span class="token punctuation">, </span></span><span class="parameter ">f<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html">Fragment</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1730431506%2FFunctions%2F1068042445" anchor-label="pair" id="1730431506%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="pair.html"><span><span>pair</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1730431506%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">.</span><a href="pair.html"><span class="token function">pair</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">event<span class="token operator">: </span><a href="../-log-lifecycle-event/index.html">LogLifecycleEvent</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-pair/index.html">Pair</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="../-log-lifecycle-event/index.html">LogLifecycleEvent</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span><span class="token operator">?</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-285728948%2FFunctions%2F1068042445" anchor-label="register" id="-285728948%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="register.html"><span><span>register</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-285728948%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">.</span><a href="register.html"><span class="token function">register</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-825574829%2FFunctions%2F1068042445" anchor-label="unregister" id="-825574829%2FFunctions%2F1068042445" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:android:dokkaHtmlPartial/release" data-filterable-set=":libraries:log:android:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="unregister.html"><span><span>unregister</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-825574829%2FFunctions%2F1068042445"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:android:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a><span class="token punctuation">.</span><a href="unregister.html"><span class="token function">unregister</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

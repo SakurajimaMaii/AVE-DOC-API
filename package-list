@@ -26,7 +26,6 @@ com.ave.vastgui.tools.bean
 com.ave.vastgui.tools.config
 com.ave.vastgui.tools.constant
 com.ave.vastgui.tools.content
-com.ave.vastgui.tools.coroutines
 com.ave.vastgui.tools.datastore
 com.ave.vastgui.tools.exception
 com.ave.vastgui.tools.fragment
@@ -63,6 +62,8 @@ com.ave.vastgui.tools.view.textview.mailboxassociateview
 com.ave.vastgui.tools.view.toast
 com.ave.vastgui.tools.view.vp2indicator
 com.ave.vastgui.tools.viewbinding
+module:log-android
+com.log.vastgui.android.lifecycle
 module:log-core
 com.log.vastgui.core
 com.log.vastgui.core.annotation
@@ -85,3 +86,4 @@ com.log.vastgui.okhttp
 com.log.vastgui.okhttp.base
 module:log-slf4j
 com.log.vastgui.slf4j
+com.log.vastgui.slf4j.convert

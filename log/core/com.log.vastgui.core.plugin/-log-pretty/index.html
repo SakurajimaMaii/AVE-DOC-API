@@ -62,7 +62,7 @@
   <div class="breadcrumbs"><a href="../../index.html">log-core</a><span class="delimiter">/</span><a href="../index.html">com.log.vastgui.core.plugin</a><span class="delimiter">/</span><span class="current">LogPretty</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Log</span><wbr><span><span>Pretty</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">LogPretty</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>mConfiguration<span class="token operator">: </span><a href="-configuration/index.html">LogPretty.Configuration</a></span></span><span class="token punctuation">)</span><span class="clearfix"><span class="floating-right">(<a href="https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/log/core/src/main/kotlin/com/log/vastgui/core/plugin/LogPretty.kt#L47">source</a>)</span></span></div><p class="paragraph"><a href="index.html">LogPretty</a> allows printing the json string in the log in pretty style.</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">private val gsonConverter = GsonConverter.getInstance(true)<br><br>@JvmField<br>val logFactory: LogFactory = getLogFactory {<br>    ....<br>    install(LogPretty) {<br>        converter = gsonConverter<br>    }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">1.3.4</p></span></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">LogPretty</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mConfiguration<span class="token operator">: </span><a href="-configuration/index.html">LogPretty.Configuration</a></span></span><span class="token punctuation">)</span><span class="clearfix"><span class="floating-right">(<a href="https://github.com/SakurajimaMaii/Android-Vast-Extension/blob/develop/libraries/log/core/src/main/kotlin/com/log/vastgui/core/plugin/LogPretty.kt#L47">source</a>)</span></span></div><p class="paragraph"><a href="index.html">LogPretty</a> allows printing the json string in the log in pretty style.</p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">private val gsonConverter = GsonConverter.getInstance(true)<br><br>@JvmField<br>val logFactory: LogFactory = getLogFactory {<br>    ....<br>    install(LogPretty) {<br>        converter = gsonConverter<br>    }<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><span class="kdoc-tag"><h4 class="">Since</h4><p class="paragraph">1.3.4</p></span></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
@@ -122,17 +122,36 @@
       </div>
       <div data-togglable="PROPERTY">
         <h2 class="">Properties</h2>
-        <div class="table"><a data-name="1237608444%2FProperties%2F-604408910" anchor-label="mConfiguration" id="1237608444%2FProperties%2F-604408910" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main"></a>
+        <div class="table"><a data-name="-547321582%2FProperties%2F-604408910" anchor-label="mConverter" id="-547321582%2FProperties%2F-604408910" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main"></a>
           <div class="table-row" data-filterable-current=":libraries:log:core:dokkaHtmlPartial/main" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
-                  <div><a href="m-configuration.html"><span>m</span><wbr><span><span>Configuration</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1237608444%2FProperties%2F-604408910"></span>
+                  <div><a href="m-converter.html"><span>m</span><wbr><span><span>Converter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-547321582%2FProperties%2F-604408910"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-configuration.html">mConfiguration</a><span class="token operator">: </span><a href="-configuration/index.html">LogPretty.Configuration</a></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">val </span><a href="m-converter.html">mConverter</a><span class="token operator">: </span><a href="../../com.log.vastgui.core.json/-converter/index.html">Converter</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-1440082509%2FFunctions%2F-604408910" anchor-label="parseString" id="-1440082509%2FFunctions%2F-604408910" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main"></a>
+          <div class="table-row" data-filterable-current=":libraries:log:core:dokkaHtmlPartial/main" data-filterable-set=":libraries:log:core:dokkaHtmlPartial/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="parse-string.html"><span>parse</span><wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1440082509%2FFunctions%2F-604408910"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":libraries:log:core:dokkaHtmlPartial/main"><div class="symbol monospace"><span class="token keyword">private </span><span class="token keyword">fun </span><a href="parse-string.html"><span class="token function">parseString</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">json<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html">Any</a></div></div></div>
                 </div>
               </div>
             </div>
